@@ -1,0 +1,454 @@
+{
+    "response": {
+        "filterSearchData": {
+            "filterContentDetails": {
+                "controlGroup": [
+                    {
+                        "controlSize": "medium",
+                        "controls": [
+                            {
+                                "controlId": "dayMarker",
+                                "controlLabel": "",
+                                "controlName": "dayMarker",
+                                "controlType": "combobox",
+                                "defaultValue": "T",
+                                "enabled": true,
+                                "isBottomControl": false,
+                                "maxLength": "35",
+                                "options": [
+                                    {
+                                        "label": "Current day",
+                                        "value": "C"
+                                    },
+                                    {
+                                        "label": "Last 10 days",
+                                        "value": "R"
+                                    },
+                                    {
+                                        "label": "Previous day",
+                                        "value": "P"
+                                    },
+                                    {
+                                        "label": "Previous calendar week",
+                                        "value": "W"
+                                    },
+                                    {
+                                        "label": "Previous 10 days",
+                                        "value": "T"
+                                    },
+                                    {
+                                        "label": "Previous 30 days",
+                                        "value": "M"
+                                    },
+                                    {
+                                        "label": "Previous 60 days",
+                                        "value": "S"
+                                    },
+                                    {
+                                        "label": "Previous 90 days",
+                                        "value": "E"
+                                    },
+                                    {
+                                        "label": "Previous 180 days",
+                                        "value": "O"
+                                    },
+                                    {
+                                        "label": "Specify date range",
+                                        "value": "Specifydaterange"
+                                    }
+                                ],
+                                "placeHolder": "",
+                                "selectedControlValue": "T"
+                            }
+                        ],
+                        "groupId": "Period",
+                        "index": "1",
+                        "isPartofMoreSection": false,
+                        "label": "BTR_LOAN_PERIOD",
+                        "rowPosition": "1",
+                        "separatorNeed": false
+                    },
+                    {
+                        "controlSize": "smallCombo",
+                        "controls": [
+                            {
+                                "controlId": "startDate",
+                                "controlLabel": "",
+                                "controlName": "startDate",
+                                "controlType": "DateBox",
+                                "defaultValue": "",
+                                "enabled": false,
+                                "isBottomControl": false,
+                                "maxLength": "35",
+                                "options": [],
+                                "placeHolder": "BTR_DATE",
+                                "selectedControlValue": ""
+                            },
+                            {
+                                "controlId": "endDate",
+                                "controlLabel": "BTR_DT_TO",
+                                "controlName": "endDate",
+                                "controlType": "DateBox",
+                                "defaultValue": "",
+                                "enabled": false,
+                                "isBottomControl": false,
+                                "maxLength": "35",
+                                "options": [],
+                                "placeHolder": "BTR_DATE",
+                                "selectedControlValue": ""
+                            }
+                        ],
+                        "groupId": "Date Range1",
+                        "index": "2",
+                        "isPartofMoreSection": false,
+                        "label": "BTR_DT_RANGE",
+                        "rowPosition": "1",
+                        "separatorNeed": true
+                    },
+                    {
+                        "controlSize": "small",
+                        "controls": [
+                            {
+                                "controlId": "trnType",
+                                "controlLabel": "",
+                                "controlName": "trnType",
+                                "controlType": "combobox",
+                                "defaultValue": "All",
+                                "enabled": true,
+                                "isBottomControl": false,
+                                "maxLength": "",
+                                "options": [
+                                    {
+                                        "label": "All",
+                                        "value": "All"
+                                    },
+                                    {
+                                        "label": "ADJUSTMT",
+                                        "value": "ADJUSTMT"
+                                    },
+                                    {
+                                        "label": "BILL PAY",
+                                        "value": "BILL PAY"
+                                    },
+                                    {
+                                        "label": "BULK",
+                                        "value": "BULK"
+                                    },
+                                    {
+                                        "label": "CASH",
+                                        "value": "CASH"
+                                    },
+                                    {
+                                        "label": "CC PURCH",
+                                        "value": "CC PURCH"
+                                    },
+                                    {
+                                        "label": "CC PYMT",
+                                        "value": "CC PYMT"
+                                    },
+                                    {
+                                        "label": "CHARGES",
+                                        "value": "CHARGES"
+                                    },
+                                    {
+                                        "label": "CHEQUE",
+                                        "value": "CHEQUE"
+                                    },
+                                    {
+                                        "label": "DEPOSIT",
+                                        "value": "DEPOSIT"
+                                    },
+                                    {
+                                        "label": "DRAFT",
+                                        "value": "DRAFT"
+                                    },
+                                    {
+                                        "label": "DRAWDOWN",
+                                        "value": "DRAWDOWN"
+                                    },
+                                    {
+                                        "label": "FOREX",
+                                        "value": "FOREX"
+                                    },
+                                    {
+                                        "label": "INTEREST",
+                                        "value": "INTEREST"
+                                    },
+                                    {
+                                        "label": "LN REPAY",
+                                        "value": "LN REPAY"
+                                    },
+                                    {
+                                        "label": "LOCKBOX",
+                                        "value": "LOCKBOX"
+                                    },
+                                    {
+                                        "label": "REVERSAL",
+                                        "value": "REVERSAL"
+                                    },
+                                    {
+                                        "label": "SECU",
+                                        "value": "SECU"
+                                    },
+                                    {
+                                        "label": "SWEEP",
+                                        "value": "SWEEP"
+                                    },
+                                    {
+                                        "label": "TRADE SV",
+                                        "value": "TRADE SV"
+                                    },
+                                    {
+                                        "label": "TRANSFER",
+                                        "value": "TRANSFER"
+                                    },
+                                    {
+                                        "label": "TT",
+                                        "value": "TT"
+                                    },
+                                    {
+                                        "label": "OTHER",
+                                        "value": "OTHER"
+                                    }
+                                ],
+                                "placeHolder": "",
+                                "selectedControlValue": ""
+                            }
+                        ],
+                        "groupId": "Transaction Type",
+                        "index": "3",
+                        "isPartofMoreSection": false,
+                        "label": "BTR_TXN_TP_3",
+                        "rowPosition": "1",
+                        "separatorNeed": false
+                    },
+                    {
+                        "controlSize": "smallCombo",
+                        "controls": [
+                            {
+                                "controlId": "amountFrom",
+                                "controlLabel": "",
+                                "controlName": "amountFrom",
+                                "controlType": "TextBox",
+                                "defaultValue": "",
+                                "enabled": true,
+                                "isBottomControl": false,
+                                "maxLength": "35",
+                                "options": [],
+                                "placeHolder": "",
+                                "selectedControlValue": ""
+                            },
+                            {
+                                "controlId": "amountTo",
+                                "controlLabel": "BTR_DT_TO",
+                                "controlName": "amountTo",
+                                "controlType": "TextBox",
+                                "defaultValue": "",
+                                "enabled": true,
+                                "isBottomControl": false,
+                                "maxLength": "35",
+                                "options": [],
+                                "placeHolder": "",
+                                "selectedControlValue": ""
+                            }
+                        ],
+                        "groupId": "Amount range",
+                        "index": "4",
+                        "isPartofMoreSection": true,
+                        "label": "BTR_AMT_RNG",
+                        "rowPosition": "2",
+                        "separatorNeed": true
+                    },
+                    {
+                        "controlSize": "small",
+                        "controls": [
+                            {
+                                "controlId": "balType",
+                                "controlLabel": "",
+                                "controlName": "balType",
+                                "controlType": "combobox",
+                                "defaultValue": "Both",
+                                "enabled": true,
+                                "isBottomControl": false,
+                                "maxLength": "35",
+                                "options": [
+                                    {
+                                        "label": "Both",
+                                        "value": "Both"
+                                    },
+                                    {
+                                        "label": "Debit",
+                                        "value": "DR"
+                                    },
+                                    {
+                                        "label": "Credit",
+                                        "value": "CR"
+                                    }
+                                ],
+                                "placeHolder": "",
+                                "selectedControlValue": ""
+                            }//complexView
+                        ],
+                        "groupId": "Debit/Credit",
+                        "index": "5",
+                        "isPartofMoreSection": false,
+                        "label": "BTR_DB_CR",
+                        "rowPosition": "1",
+                        "separatorNeed": false
+                    },
+                    {
+                        "controlSize": "small",
+                        "controls": [
+                            {
+                                "controlId": "dateType",
+                                "controlLabel": "",
+                                "controlName": "dateType",
+                                "controlType": "combobox",
+                                "defaultValue": "P",
+                                "enabled": true,
+                                "isBottomControl": false,
+                                "maxLength": "35",
+                                "options": [
+                                    {
+                                        "label": "Post date",
+                                        "value": "P"
+                                    },
+                                    {
+                                        "label": "Value date",
+                                        "value": "V"
+                                    }
+                                ],
+                                "placeHolder": "",
+                                "selectedControlValue": "P"
+                            }
+                        ],
+                        "groupId": "Date Type",
+                        "index": "6",
+                        "isPartofMoreSection": false,
+                        "label": "BTR_DT_TYPE_1",
+                        "rowPosition": "1",
+                        "separatorNeed": false
+                    },
+                    {
+                        "controlSize": "medium",
+                        "controls": [
+                            {
+                                "controlId": "custRef",
+                                "controlLabel": "",
+                                "controlName": "custRef",
+                                "controlType": "TextBox",
+                                "defaultValue": "",
+                                "enabled": true,
+                                "isBottomControl": false,
+                                "maxLength": "35",
+                                "options": [],
+                                "placeHolder": "BTR_MIN_CHAR",
+                                "selectedControlValue": ""
+                            },
+                            {
+                                "controlId": "exctMatchCR",
+                                "controlLabel": "BTR_EXACT_MATCH_1",
+                                "controlName": "exctMatchCR",
+                                "controlType": "checkbox",
+                                "defaultValue": "",
+                                "enabled": true,
+                                "isBottomControl": true,
+                                "maxLength": "35",
+                                "options": [],
+                                "placeHolder": "",
+                                "selectedControlValue": ""
+                            }
+                        ],
+                        "groupId": "Customer reference",
+                        "index": "7",
+                        "isPartofMoreSection": true,
+                        "label": "BTR_CUST_REFR",
+                        "rowPosition": "2",
+                        "separatorNeed": false
+                    },
+                    {
+                        "controlSize": "small",
+                        "controls": [
+                            {
+                                "controlId": "bankRef",
+                                "controlLabel": "",
+                                "controlName": "bankRef",
+                                "controlType": "TextBox",
+                                "defaultValue": "",
+                                "enabled": true,
+                                "isBottomControl": false,
+                                "maxLength": "42",
+                                "options": [],
+                                "placeHolder": "BTR_MIN_CHAR",
+                                "selectedControlValue": ""
+                            },
+                            {
+                                "controlId": "exctMatchBR",
+                                "controlLabel": "BTR_EXACT_MATCH_1",
+                                "controlName": "exctMatchBR",
+                                "controlType": "checkbox",
+                                "defaultValue": "",
+                                "enabled": true,
+                                "isBottomControl": true,
+                                "maxLength": "35",
+                                "options": [],
+                                "placeHolder": "",
+                                "selectedControlValue": ""
+                            }
+                        ],
+                        "groupId": "Bank reference",
+                        "index": "8",
+                        "isPartofMoreSection": true,
+                        "label": "BTR_BNK_REFR",
+                        "rowPosition": "2",
+                        "separatorNeed": false
+                    },
+                    {
+                        "controlSize": "large",
+                        "controls": [
+                            {
+                                "controlId": "trnDet",
+                                "controlLabel": "",
+                                "controlName": "trnDet",
+                                "controlType": "TextBox",
+                                "defaultValue": "",
+                                "enabled": true,
+                                "isBottomControl": false,
+                                "maxLength": "35",
+                                "options": [],
+                                "placeHolder": "",
+                                "selectedControlValue": ""
+                            }
+                        ],
+                        "groupId": "Transactional Details",
+                        "index": "9",
+                        "isPartofMoreSection": true,
+                        "label": "BTR_TXN_DTS",
+                        "rowPosition": "2",
+                        "separatorNeed": false
+                    }
+                ],
+                "isMoreOptionAvailable": true
+            },
+            "filterHeaderDetails": {
+                "expandFilter": false,
+                "favouriteGroupsOptionList": null,
+                "filterReportOption": [],
+                "showAllAccountGroups": false,
+                "showCustomizeView": true,
+                "showDerex": false,
+                "showFilter": true,
+                "showManageFavourite": false,
+                "showRefresh": false,
+                "showStatementPreferences": false
+            },
+            "filterType": "stmtDtlsFilter",
+            "uniqueKey": "GBHBEUCA40460377023146"
+        },
+        "notices": []
+    },
+    "status": {
+        "code": "0",
+        "message": ""
+    }
+}
